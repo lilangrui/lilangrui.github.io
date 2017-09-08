@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>叮叮铛</title>
-    <link>http://lilangrui.github.io/</link>
+    <link>https://lilangrui.github.io/</link>
     <description>Recent content on 叮叮铛</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
     <lastBuildDate>Thu, 20 Jul 2017 12:00:23 +0200</lastBuildDate>
     
-	<atom:link href="http://lilangrui.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lilangrui.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Using the gallery shortcode</title>
-      <link>http://lilangrui.github.io/2017/07/20/using-the-gallery-shortcode/</link>
+      <link>https://lilangrui.github.io/2017/07/20/using-the-gallery-shortcode/</link>
       <pubDate>Thu, 20 Jul 2017 12:00:23 +0200</pubDate>
       
-      <guid>http://lilangrui.github.io/2017/07/20/using-the-gallery-shortcode/</guid>
+      <guid>https://lilangrui.github.io/2017/07/20/using-the-gallery-shortcode/</guid>
       <description>&lt;p&gt;This way you can easily include a gallery into your page. Copy the code below into your content file and enter the relative paths to your images.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -25,10 +25,10 @@
     
     <item>
       <title>Markdown Cheat Sheet</title>
-      <link>http://lilangrui.github.io/2017/05/20/markdown-cheat-sheet/</link>
+      <link>https://lilangrui.github.io/2017/05/20/markdown-cheat-sheet/</link>
       <pubDate>Sat, 20 May 2017 12:10:51 +0200</pubDate>
       
-      <guid>http://lilangrui.github.io/2017/05/20/markdown-cheat-sheet/</guid>
+      <guid>https://lilangrui.github.io/2017/05/20/markdown-cheat-sheet/</guid>
       <description>&lt;p&gt;This note demonstrates some of what &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; is capable of doing.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Note: Feel free to play with this page. Unlike regular notes, this doesn&amp;rsquo;t automatically save itself.&lt;/em&gt;&lt;/p&gt;
@@ -38,10 +38,10 @@
     
     <item>
       <title>Formulas with MathJax</title>
-      <link>http://lilangrui.github.io/2017/05/20/formulas-with-mathjax/</link>
+      <link>https://lilangrui.github.io/2017/05/20/formulas-with-mathjax/</link>
       <pubDate>Sat, 20 May 2017 11:58:06 +0200</pubDate>
       
-      <guid>http://lilangrui.github.io/2017/05/20/formulas-with-mathjax/</guid>
+      <guid>https://lilangrui.github.io/2017/05/20/formulas-with-mathjax/</guid>
       <description>&lt;p&gt;Mathematical equations in form of LaTeX or MathML code can be rendered with the support of &lt;a href=&#34;https://www.mathjax.org&#34;&gt;MathJax&lt;/a&gt;. MathML works out of the box. If you&amp;rsquo;re using LaTeX you need to wrap your equation with &lt;code&gt;$$&lt;/code&gt; as shown in the following example:&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -49,20 +49,20 @@
     
     <item>
       <title>怎样写博客</title>
-      <link>http://lilangrui.github.io/about/how-to-use/</link>
+      <link>https://lilangrui.github.io/about/how-to-use/</link>
       <pubDate>Fri, 19 May 2017 21:49:20 +0200</pubDate>
       
-      <guid>http://lilangrui.github.io/about/how-to-use/</guid>
+      <guid>https://lilangrui.github.io/about/how-to-use/</guid>
       <description>&lt;p&gt;##markdown语法
 &lt;a href=&#34;http://www.cnblogs.com/liugang-vip/p/6337580.html&#34;&gt;http://www.cnblogs.com/liugang-vip/p/6337580.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>语法</title>
-      <link>http://lilangrui.github.io/about/syntax/</link>
+      <link>https://lilangrui.github.io/about/syntax/</link>
       <pubDate>Fri, 19 May 2017 21:49:20 +0200</pubDate>
       
-      <guid>http://lilangrui.github.io/about/syntax/</guid>
+      <guid>https://lilangrui.github.io/about/syntax/</guid>
       <description>什么是 Markdown Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，粗体 或者 斜体 某些文字，更棒的是，它还可以
 1. 基本语法 MarkEditor的Markdown语法  Markdown是非常棒以及流行的写作语法，平文本，「易读易写」，一般只需几分钟就能学会Markdown的基本用法。
 ## 标题: # 一级标题 ## 二级标题 ### 三级标题 #### 四级标题 ##### 五级标题 ###### 六级标题 分别对应HTML中的`&amp;lt;h1&amp;gt;一级标题&amp;lt;/h1&amp;gt;`，以此类推。  一级标题 二级标题 三级标题 四级标题 五级标题 六级标题 **用两个星号标记起来，表示加粗** *一个星号，表示斜体* ~~这样子表示删除~~。  用两个星号标记起来，表示加粗, 一个星号，表示斜体, 这样子表示删除
