@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <title>叮叮铛</title>
+    <title>语法 &middot; 叮叮铛</title>
     <meta name="generator" content="Hugo 0.26" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -10,10 +10,7 @@
       <meta name="description" content="做更好的自己">
     
     
-      <link href="http://lilangrui.github.io/index.xml" rel="alternate" type="application/rss+xml" title="叮叮铛" />
-      <link href="http://lilangrui.github.io/index.xml" rel="feed" type="application/rss+xml" title="叮叮铛" />
-    
-    <link rel="canonical" href="http://lilangrui.github.io/"/>
+    <link rel="canonical" href="http://lilangrui.github.io/about/syntax/"/>
     <link rel="icon" href="http://lilangrui.github.io/favicon.ico">
     <link rel="apple-touch-icon" href="http://lilangrui.github.io/apple-touch-icon.png"/>
     <link rel="stylesheet" href="http://lilangrui.github.io/css/style.css">
@@ -23,14 +20,27 @@
     
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
-    <meta property="og:title" content="叮叮铛" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://lilangrui.github.io/" />
+    <meta property="og:title" content="语法" />
+<meta property="og:description" content="什么是 Markdown Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，粗体 或者 斜体 某些文字，更棒的是，它还可以
+1. 基本语法 MarkEditor的Markdown语法  Markdown是非常棒以及流行的写作语法，平文本，「易读易写」，一般只需几分钟就能学会Markdown的基本用法。
+## 标题: # 一级标题 ## 二级标题 ### 三级标题 #### 四级标题 ##### 五级标题 ###### 六级标题 分别对应HTML中的`&lt;h1&gt;一级标题&lt;/h1&gt;`，以此类推。  一级标题 二级标题 三级标题 四级标题 五级标题 六级标题 **用两个星号标记起来，表示加粗** *一个星号，表示斜体* ~~这样子表示删除~~。  用两个星号标记起来，表示加粗, 一个星号，表示斜体, 这样子表示删除
+ 插入链接 插入链接:
+这是一个 [链接](http://url.com/)  这是一个 链接
+快速链接: 只需要在网址头尾用尖括号包裹即可，比如
+&lt;http://url.com&gt;  http://url.com
+另外一种插链接的语法:
+这是一个 [链接][link_key]，然后，在文档的任何一行中(通常在文档末尾比较合适)，对这个链接进行定义，比如:  这是一个 链接:
+邮箱链接:
+这是一个 &lt;myname@example.com&gt; 邮箱的链接。  myname@example.com
+插入图片  插入图片的语法跟插链接很像，在MarkEditor中，一般可以通过拖拽的方式进行插图，不一定会看到这个语法，而可能直接看到图片本身。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://lilangrui.github.io/about/syntax/" />
 
 
 
-<meta property="og:updated_time" content="2017-07-20T12:00:23&#43;02:00"/>
+<meta property="article:published_time" content="2017-05-19T21:49:20&#43;02:00"/>
+<meta property="article:modified_time" content="2017-05-19T21:49:20&#43;02:00"/>
+
 
 
 
@@ -43,12 +53,41 @@
 
     
     
-<meta itemprop="name" content="叮叮铛">
-<meta itemprop="description" content="">
+<meta itemprop="name" content="语法">
+<meta itemprop="description" content="什么是 Markdown Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，粗体 或者 斜体 某些文字，更棒的是，它还可以
+1. 基本语法 MarkEditor的Markdown语法  Markdown是非常棒以及流行的写作语法，平文本，「易读易写」，一般只需几分钟就能学会Markdown的基本用法。
+## 标题: # 一级标题 ## 二级标题 ### 三级标题 #### 四级标题 ##### 五级标题 ###### 六级标题 分别对应HTML中的`&lt;h1&gt;一级标题&lt;/h1&gt;`，以此类推。  一级标题 二级标题 三级标题 四级标题 五级标题 六级标题 **用两个星号标记起来，表示加粗** *一个星号，表示斜体* ~~这样子表示删除~~。  用两个星号标记起来，表示加粗, 一个星号，表示斜体, 这样子表示删除
+ 插入链接 插入链接:
+这是一个 [链接](http://url.com/)  这是一个 链接
+快速链接: 只需要在网址头尾用尖括号包裹即可，比如
+&lt;http://url.com&gt;  http://url.com
+另外一种插链接的语法:
+这是一个 [链接][link_key]，然后，在文档的任何一行中(通常在文档末尾比较合适)，对这个链接进行定义，比如:  这是一个 链接:
+邮箱链接:
+这是一个 &lt;myname@example.com&gt; 邮箱的链接。  myname@example.com
+插入图片  插入图片的语法跟插链接很像，在MarkEditor中，一般可以通过拖拽的方式进行插图，不一定会看到这个语法，而可能直接看到图片本身。">
 
 
-    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="叮叮铛"/>
-<meta name="twitter:description" content=""/>
+<meta itemprop="dateModified" content="2017-05-19T21:49:20&#43;02:00" />
+<meta itemprop="wordCount" content="129">
+
+
+
+<meta itemprop="keywords" content="" />
+
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="语法"/>
+<meta name="twitter:description" content="什么是 Markdown Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，粗体 或者 斜体 某些文字，更棒的是，它还可以
+1. 基本语法 MarkEditor的Markdown语法  Markdown是非常棒以及流行的写作语法，平文本，「易读易写」，一般只需几分钟就能学会Markdown的基本用法。
+## 标题: # 一级标题 ## 二级标题 ### 三级标题 #### 四级标题 ##### 五级标题 ###### 六级标题 分别对应HTML中的`&lt;h1&gt;一级标题&lt;/h1&gt;`，以此类推。  一级标题 二级标题 三级标题 四级标题 五级标题 六级标题 **用两个星号标记起来，表示加粗** *一个星号，表示斜体* ~~这样子表示删除~~。  用两个星号标记起来，表示加粗, 一个星号，表示斜体, 这样子表示删除
+ 插入链接 插入链接:
+这是一个 [链接](http://url.com/)  这是一个 链接
+快速链接: 只需要在网址头尾用尖括号包裹即可，比如
+&lt;http://url.com&gt;  http://url.com
+另外一种插链接的语法:
+这是一个 [链接][link_key]，然后，在文档的任何一行中(通常在文档末尾比较合适)，对这个链接进行定义，比如:  这是一个 链接:
+邮箱链接:
+这是一个 &lt;myname@example.com&gt; 邮箱的链接。  myname@example.com
+插入图片  插入图片的语法跟插链接很像，在MarkEditor中，一般可以通过拖拽的方式进行插图，不一定会看到这个语法，而可能直接看到图片本身。"/>
 
     
 
@@ -263,20 +302,14 @@
 
     <section id="main">
     
-    
-
-<article class="article article-type-post" itemscope="" itemprop="blogPost">
+    <article id="page-undefined" class="article article-type-page" itemscope="" itemprop="blogPost">
     <div class="article-inner">
         
-        <a href="http://lilangrui.github.io/2017/07/20/using-the-gallery-shortcode/" itemprop="url">
-            <img src="http://www.eeboard.com/bbs/data/attachment/forum/201510/23/091243rs8e3p6zas369o0t.jpg" class="article-banner">
-        
-        </a>
 
         <header class="article-header">
-    <a href="http://lilangrui.github.io/2017/07/20/using-the-gallery-shortcode/">
+    <a href="http://lilangrui.github.io/about/syntax/">
     <h1 class="article-title" itemprop="name">
-        Using the gallery shortcode
+        语法
     </h1>
     </a>
     <div class="article-meta">
@@ -284,9 +317,9 @@
         
         <div class="article-date">
             <i class="fa fa-calendar"></i>
-            <time datetime="2017-07-20 12:00:23 &#43;0200 &#43;0200" itemprop="datePublished">2017-07-20</time>
+            <time datetime="2017-05-19 21:49:20 &#43;0200 &#43;0200" itemprop="datePublished">2017-05-19</time>
             &middot;
-            33
+            129
             words
             &middot;
             1
@@ -294,55 +327,198 @@
         </div>
         
         
-            
-            
-            <div class="article-category">
-                <i class="fa fa-folder"></i>
-                
-                
-                <a class="article-category-link" href="http://lilangrui.github.io/categories/%E4%B9%90%E9%AB%98">乐高</a>
-                
-                
-            </div>
-            
-        
 
-        
-            
-            
-            <div class="article-category">
-                <i class="fa fa-tags"></i>
-                
-                
-                <a class="article-category-link" href="http://lilangrui.github.io/tags/%E4%B9%90%E9%AB%98">乐高</a>
-                
-                
-            </div>
-            
         
     </div>
 </header>
 
         <div class="article-entry" itemprop="articleBody">
-            <p>
-                <p>This way you can easily include a gallery into your page. Copy the code below into your content file and enter the relative paths to your images.</p>
+            
 
-<p></p>
-            </p>
-            <p class="article-more-link">
-                <a href="http://lilangrui.github.io/2017/07/20/using-the-gallery-shortcode/">
-                    Read more
-                </a>
-            </p>
+<h2 id="什么是-markdown">什么是 Markdown</h2>
+
+<p>Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，<strong>粗体</strong> 或者 <em>斜体</em> 某些文字，更棒的是，它还可以</p>
+
+<h1 id="1-基本语法">1. 基本语法</h1>
+
+<h1 id="markeditor的markdown语法">MarkEditor的Markdown语法</h1>
+
+<blockquote>
+<p>Markdown是非常棒以及流行的写作语法，平文本，「易读易写」，一般只需几分钟就能学会Markdown的基本用法。</p>
+
+<pre><code>## 标题:
+# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+分别对应HTML中的`&lt;h1&gt;一级标题&lt;/h1&gt;`，以此类推。
+</code></pre>
+
+<h1 id="一级标题">一级标题</h1>
+
+<h2 id="二级标题">二级标题</h2>
+
+<h3 id="三级标题">三级标题</h3>
+
+<h4 id="四级标题">四级标题</h4>
+
+<h5 id="五级标题">五级标题</h5>
+
+<h6 id="六级标题">六级标题</h6>
+
+<pre><code>**用两个星号标记起来，表示加粗**
+*一个星号，表示斜体*
+~~这样子表示删除~~。
+</code></pre>
+
+<p><strong>用两个星号标记起来，表示加粗</strong>,
+<em>一个星号，表示斜体</em>,
+<del>这样子表示删除</del></p>
+</blockquote>
+
+<h2 id="插入链接">插入链接</h2>
+
+<p><strong>插入链接:</strong></p>
+
+<pre><code>这是一个 [链接](http://url.com/)
+</code></pre>
+
+<p>这是一个 <a href="http://url.com/">链接</a></p>
+
+<p><strong>快速链接:</strong>
+只需要在网址头尾用尖括号包裹即可，比如</p>
+
+<pre><code>&lt;http://url.com&gt;
+</code></pre>
+
+<p><a href="http://url.com">http://url.com</a></p>
+
+<p><strong>另外一种插链接的语法:</strong></p>
+
+<pre><code>这是一个 [链接][link_key]，然后，在文档的任何一行中(通常在文档末尾比较合适)，对这个链接进行定义，比如: 
+
+</code></pre>
+
+<p>这是一个 <a href="http://the_url.com/">链接</a>:</p>
+
+<p><strong>邮箱链接:</strong></p>
+
+<pre><code>这是一个 &lt;myname@example.com&gt; 邮箱的链接。
+</code></pre>
+
+<p><a href="mailto:myname@example.com">myname@example.com</a></p>
+
+<h2 id="插入图片">插入图片</h2>
+
+<blockquote>
+<p>插入图片的语法跟插链接很像，在MarkEditor中，一般可以通过拖拽的方式进行插图，不一定会看到这个语法，而可能直接看到图片本身。</p>
+</blockquote>
+
+<p><strong>常见的插图语法:</strong></p>
+
+<pre><code>![图片的alt信息，可空)](图片的url)
+</code></pre>
+
+<p><img src="图片的url" alt="" /></p>
+
+<p><strong>另一种插图语法:</strong></p>
+
+<pre><code>![alt text][image_id1]
+
+</code></pre>
+
+<p><img src="图片的url" alt="" /></p>
+
+<h2 id="列表">列表</h2>
+
+<p><strong>无序列表:</strong></p>
+
+<pre><code>-   Red
+-   Green
+-   Blue
+</code></pre>
+
+<ul>
+<li>Red</li>
+<li>Green</li>
+<li>Blue</li>
+</ul>
+
+<p><strong>有序列表则使用数字接着一个英文句点：</strong></p>
+
+<pre><code>1.  Bird
+2.  McHale
+3.  Parish
+</code></pre>
+
+<ol>
+<li>Bird</li>
+<li>McHale</li>
+<li>Parish</li>
+</ol>
+
+<p><strong>也可以混合在一起使用:</strong></p>
+
+<pre><code>-   Bird
+    - blue bird
+-   McHale
+    1.  a man
+    2.  HoustonRockets
+-   Parish
+</code></pre>
+
+<ul>
+<li>Bird
+
+<ul>
+<li>blue bird</li>
+</ul></li>
+<li>McHale
+
+<ol>
+<li>a man</li>
+<li>HoustonRockets</li>
+</ol></li>
+<li>Parish</li>
+</ul>
+
+<h2 id="居中与居右">居中与居右</h2>
+
+<p>单独一行的时候，<code>[文本内容]</code>表示居中对齐，<code>[文本内容]]</code>表示居右(右侧再多一个<code>]</code>)，其它默认情况下都是居左。</p>
+
+<p>[我是居中的文本]
+[我是居右的文本]]</p>
+
+<h2 id="内容引用">内容引用</h2>
+
+<p>用<code>&gt;</code>放在段首，之后是空格，输入文字:</p>
+
+<blockquote>
+<p>你
+一会看我
+一会看云</p>
+
+<p>我觉得
+ 你看我时很远
+ 你看云时很近</p>
+</blockquote>
+
+<h2 id="分割线">分割线</h2>
+
+<p><strong><code>-</code>加上空格组成，三个以上:</strong></p>
+
+<pre><code>- - - - - -
+</code></pre>
+
+<hr />
+
         </div>
         <footer class="article-footer">
-    <a data-url="http://lilangrui.github.io/2017/07/20/using-the-gallery-shortcode/" data-id="0eb2d15f57ef4ffa2b9701552d45423c" class="article-share-link">
+    <a data-url="http://lilangrui.github.io/about/syntax/" data-id="6d851c7d63c21879b61e281f4cde8060" class="article-share-link">
         <i class="fa fa-share"></i>
         Share
-    </a>
-    
-    <a href="http://lilangrui.github.io/2017/07/20/using-the-gallery-shortcode/#disqus_thread" class="article-comment-link">
-        Comments
     </a>
     
 
@@ -413,281 +589,24 @@
 </footer>
 
     </div>
-</article>
 
-<article class="article article-type-post" itemscope="" itemprop="blogPost">
-    <div class="article-inner">
-        
-        </a>
-
-        <header class="article-header">
-    <a href="http://lilangrui.github.io/2017/05/20/markdown-cheat-sheet/">
-    <h1 class="article-title" itemprop="name">
-        Markdown Cheat Sheet
-    </h1>
-    </a>
-    <div class="article-meta">
-
-        
-        <div class="article-date">
-            <i class="fa fa-calendar"></i>
-            <time datetime="2017-05-20 12:10:51 &#43;0200 &#43;0200" itemprop="datePublished">2017-05-20</time>
-            &middot;
-            421
-            words
-            &middot;
-            2
-            minute read
-        </div>
-        
-        
-            
-            
-        
-
-        
-            
-            
-            <div class="article-category">
-                <i class="fa fa-tags"></i>
-                
-                
-                <a class="article-category-link" href="http://lilangrui.github.io/tags/markdown">markdown</a>
-                
-                
-            </div>
-            
-        
-    </div>
-</header>
-
-        <div class="article-entry" itemprop="articleBody">
-            <p>
-                <p>This note demonstrates some of what <a href="http://daringfireball.net/projects/markdown/">Markdown</a> is capable of doing.</p>
-
-<p><em>Note: Feel free to play with this page. Unlike regular notes, this doesn&rsquo;t automatically save itself.</em></p>
-
-<p></p>
-            </p>
-            <p class="article-more-link">
-                <a href="http://lilangrui.github.io/2017/05/20/markdown-cheat-sheet/">
-                    Read more
-                </a>
-            </p>
-        </div>
-        <footer class="article-footer">
-    <a data-url="http://lilangrui.github.io/2017/05/20/markdown-cheat-sheet/" data-id="2399f61a60f26b6dab39b65019a55e84" class="article-share-link">
-        <i class="fa fa-share"></i>
-        Share
-    </a>
     
-    <a href="http://lilangrui.github.io/2017/05/20/markdown-cheat-sheet/#disqus_thread" class="article-comment-link">
-        Comments
-    </a>
+<nav id="article-nav">
     
 
-    <script>
-    (function ($) {
-        
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-    </script>
-</footer>
-
-    </div>
-</article>
-
-<article class="article article-type-post" itemscope="" itemprop="blogPost">
-    <div class="article-inner">
-        
-        </a>
-
-        <header class="article-header">
-    <a href="http://lilangrui.github.io/2017/05/20/formulas-with-mathjax/">
-    <h1 class="article-title" itemprop="name">
-        Formulas with MathJax
-    </h1>
-    </a>
-    <div class="article-meta">
-
-        
-        <div class="article-date">
-            <i class="fa fa-calendar"></i>
-            <time datetime="2017-05-20 11:58:06 &#43;0200 &#43;0200" itemprop="datePublished">2017-05-20</time>
-            &middot;
-            84
-            words
-            &middot;
-            1
-            minute read
-        </div>
-        
-        
-            
-            
-        
-
-        
-            
-            
-        
-    </div>
-</header>
-
-        <div class="article-entry" itemprop="articleBody">
-            <p>
-                <p>Mathematical equations in form of LaTeX or MathML code can be rendered with the support of <a href="https://www.mathjax.org">MathJax</a>. MathML works out of the box. If you&rsquo;re using LaTeX you need to wrap your equation with <code>$$</code> as shown in the following example:</p>
-
-<p></p>
-            </p>
-            <p class="article-more-link">
-                <a href="http://lilangrui.github.io/2017/05/20/formulas-with-mathjax/">
-                    Read more
-                </a>
-            </p>
-        </div>
-        <footer class="article-footer">
-    <a data-url="http://lilangrui.github.io/2017/05/20/formulas-with-mathjax/" data-id="bbec3410326c305c6ee5c50c0621448d" class="article-share-link">
-        <i class="fa fa-share"></i>
-        Share
+    
+    <a href="http://lilangrui.github.io/about/how-to-use/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">
+          上一篇
+      </strong>
+      <div class="article-nav-title">怎样写博客</div>
     </a>
     
-    <a href="http://lilangrui.github.io/2017/05/20/formulas-with-mathjax/#disqus_thread" class="article-comment-link">
-        Comments
-    </a>
-    
-
-    <script>
-    (function ($) {
-        
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-    </script>
-</footer>
-
-    </div>
-</article>
-
-
-<nav id="page-nav">
-
 </nav>
+
+
+</article>
+
 
 
     </section>
@@ -706,7 +625,7 @@
                 <div class="item-thumbnail">
                     <a href="http://lilangrui.github.io/2017/07/20/using-the-gallery-shortcode/" class="thumbnail">
                     
-                        <span style="background-image:url(http://www.eeboard.com/bbs/data/attachment/forum/201510/23/091243rs8e3p6zas369o0t.jpg)" alt="叮叮铛" class="thumbnail-image"></span>
+                        <span style="background-image:url(http://www.eeboard.com/bbs/data/attachment/forum/201510/23/091243rs8e3p6zas369o0t.jpg)" alt="语法" class="thumbnail-image"></span>
                     
                     </a>
                 </div>
